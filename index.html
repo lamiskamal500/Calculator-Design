@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+    <div class="inputs">
+        <input type="text" id="input_text" readonly placeholder="0">
+        <input type="text" id="result_text" readonly >
+    </div>
+        <div class="buttons">
+            <button onclick="calculate(1), playSound()">1</button>
+            <button onclick="calculate(2), playSound()">2</button>
+            <button onclick="calculate(3), playSound()">3</button>
+            <button onclick="calculate('+'), playSound()">+</button>
+            <button onclick="calculate(4), playSound()">4</button>
+            <button onclick="calculate(5), playSound()">5</button>
+            <button onclick="calculate(6), playSound() ">6</button>
+            <button onclick="calculate('-'), playSound()">-</button>
+            <button onclick="calculate(7), playSound()">7</button>
+            <button onclick="calculate(8), playSound()">8</button>
+            <button onclick="calculate(9), playSound()">9</button>
+            <button onclick="calculate('*'), playSound()", playSound()>*</button>
+            <button onclick="ce(),playSound2()">CE</button>
+            <button onclick="calculate(0), playSound()">0</button>
+            <button onclick="del(),playSound2()">DEL</button>
+            <button onclick="factorial('!'), playSound()">!</button>
+            <button onclick="calculate('/'), playSound()">/</button>
+            <button onclick="calculate('%'), playSound()">%</button>
+            <button onclick="calculate('**'), playSound()">^</button>
+            <button class="equal" onclick="Result(),playSound3()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
