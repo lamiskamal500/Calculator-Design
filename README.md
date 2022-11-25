@@ -3,6 +3,7 @@ The same design by 3 ways:
 * Native JavaScript
 * React
 * React-Redux
+(By React and React redux are zip files)
 
 <html>
 <body>
